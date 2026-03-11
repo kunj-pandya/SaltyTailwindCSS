@@ -1,20 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Salty</title>
-    <link href="./dist/output.css" rel="stylesheet">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/Salty.png" type="image/x-icon">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Salty TailwindCSS</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body></body>
+<body class="bg-bg">
+    <nav>
+
+        <div class="max-w-container mx-auto px-5 flex items-center justify-between h-24 md:h-20">
+
+            <div class="flex items-center gap-20">
+
+                <div class="flex items-center gap-1.5">
+                    <img src="image/Salty.png" alt="Salty logo" class="w-10 h-10 object-contain">
+                    <span class="font-display text-xl/5 font-bold text-brand">Salty</span>
+                </div>
+
+                <ul class="hidden lg:flex items-center gap-9 font-ui font-normal list-none">
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-wide text-nav hover:text-accent transition-colors">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav  hover:text-accent transition-colors">
+                            About us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav hover:text-accent transition-colors">
+                            Destinations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav hover:text-accent transiti on-colors">
+                            Tours
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav  hover:text-accent transition-colors">
+                            Blog
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="flex items-center gap-4">
+
+                <button
+                    class="flex items-center gap-2
+               border border-accent text-accent font-ui font-medium text-sm px-7 py-3 md:px-5 md:py-2.5 rounded-full hover:bg-accent hover:text-white">
+
+                    <span>Book Now</span>
+                    <img src="image/Vector.png" alt="up arrow">
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+</body>
 
 </html>
