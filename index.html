@@ -86,12 +86,14 @@
 
     </nav>
 
-    <section class="min-h-screen flex items-center">
+    <!-- Hero -->
+
+    <section class="min-h-screen">
 
         <div class="max-w-container mx-auto px-5 flex flex-col items-center gap-10 w-full pt-5 pb-10 lg:flex-row">
 
             <!-- Hero Left -->
-            <div class="w-full max-w-xl">
+            <div class="w-full max-w-xl flex flex-col items-center lg:items-start lg:justify-start">
 
                 <h1
                     class="font-display font-bold text-brand text-5xl text-center md:text-7xl md:leading-[86px] lg:text-start">
@@ -108,7 +110,7 @@
 
                 <!-- Search Box -->
                 <div
-                    class="flex gap-9 flex-col sm:w-[500px] bg-white shadow-md rounded-lg px-7 py-4 align-middle items-center sm:flex-row md:px-5 md:py-3 md:rounded-full sm:rounded-2xl sm:p-4">
+                    class="flex gap-9 flex-col w-[300px] sm:w-[500px] bg-white shadow-md rounded-lg px-7 py-4 align-middle items-center sm:flex-row md:px-5 md:py-3 md:rounded-full sm:rounded-2xl sm:p-4">
 
                     <!-- Field -->
                     <div class="flex w-full flex-col flex-1 min-w-0 text-left">
@@ -158,6 +160,107 @@
         </div>
 
     </section>
+
+    <!-- Categories -->
+    <section>
+        <div class="max-w-container mx-auto px-5">
+
+            <div
+                class="flex flex-col items-center text-center gap-6 mb-10 lg:flex-wrap md:flex-row md:items-start md:justify-between md:text-left md:mb-14">
+
+                <div class="flex flex-col items-center md:items-start">
+
+                    <h2 class="font-display font-bold text-brand text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
+                        Categories
+                    </h2>
+
+                    <p class="max-w-sm text-text font-body text-sm leading-relaxed md:max-w-xs">
+                        Here are lots of interesting destinations to visit,
+                        but don’t be confused—they’re already grouped
+                        by category.
+                    </p>
+
+                </div>
+
+                <div class="hidden md:flex items-center gap-3 shrink-0">
+
+                    <button
+                        class="w-12 h-12 rounded-full border border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition">
+                        <svg class="w-2 h-4" viewBox="0 0 8 14" fill="none">
+                            <path d="M6.75 12.75L0.75 6.75L6.75 0.75" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <button
+                        class="w-12 h-12 rounded-full border border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition">
+                        <svg class="w-2 h-4" viewBox="0 0 8 14" fill="none">
+                            <path d="M0.75 12.75L6.75 6.75L0.75 0.75" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="flex flex-wrap flex-col items-center sm:flex-row justify-center gap-6 md:gap-7 lg:flex-nowrap lg:justify-between">
+
+                <div class="flex flex-col items-center text-center cursor-pointer  min-w-0 max-w-40">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/beach-image.png" alt="Beach"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Beach</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/desert-image.png" alt="Desert"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Desert</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/mountain-image.png" alt="Mountain"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Mountain</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/tample-image.png" alt="Temple"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Temple</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointers min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/tower-image.png" alt="Tower"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Tower</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/pyramind-image.png" alt="Pyramid"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Pyramid</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
 </body>
 
 </html>
