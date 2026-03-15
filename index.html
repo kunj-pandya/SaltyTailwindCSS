@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/Salty.png" type="image/x-icon">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Salty TailwindCSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-bg">
+    <nav>
+
+        <div class="max-w-container mx-auto px-5 flex items-center justify-between h-24 md:h-20">
+
+            <div class="flex items-center gap-20">
+
+                <div class="flex items-center gap-1.5">
+                    <img src="image/Salty.png" alt="Salty logo" class="w-10 h-10 object-contain">
+                    <span class="font-display text-xl/5 font-bold text-brand">Salty</span>
+                </div>
+
+                <ul class="hidden lg:flex items-center gap-9 font-ui font-normal list-none">
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-wide text-nav hover:text-accent transition-colors">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav  hover:text-accent transition-colors">
+                            About us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav hover:text-accent transition-colors">
+                            Destinations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav hover:text-accent transiti on-colors">
+                            Tours
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="text-base leading-4 tracking-[1%]  text-nav  hover:text-accent transition-colors">
+                            Blog
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="flex items-center gap-4">
+
+                <button
+                    class="flex items-center gap-2
+               border border-accent text-accent font-ui font-medium text-sm px-7 py-3 md:px-5 md:py-2.5 rounded-full hover:bg-accent hover:text-white">
+
+                    <span>Book Now</span>
+                    <img src="image/Vector.png" alt="up arrow">
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="min-h-screen">
+
+        <div class="max-w-container mx-auto px-5 flex flex-col items-center gap-10 w-full pt-5 pb-10 lg:flex-row">
+
+            <!-- Hero Left -->
+            <div class="w-full max-w-xl flex flex-col items-center lg:items-start lg:justify-start">
+
+                <h1
+                    class="font-display font-bold text-brand text-5xl text-center md:text-7xl md:leading-[86px] lg:text-start">
+                    Discover the
+                    Best Lovely
+                    Places
+                </h1>
+
+                <p
+                    class="mt-6 mb-11 text-sm font-body text-text text-center  lg:text-start  md:max-w-[400px] md:text-lgmax-w-lg mx-auto lg:mx-0">
+                    Plan and book your perfect trip with expert advice,
+                    travel tips, destination information and inspiration from us.
+                </p>
+
+                <!-- Search Box -->
+                <div
+                    class="flex gap-9 flex-col w-[300px] sm:w-[500px] bg-white shadow-md rounded-lg px-7 py-4 align-middle items-center sm:flex-row md:px-5 md:py-3 md:rounded-full sm:rounded-2xl sm:p-4">
+
+                    <!-- Field -->
+                    <div class="flex w-full flex-col flex-1 min-w-0 text-left">
+                        <label class="text-lg font-medium text-brand font-ui leading-none">
+                            Where
+                        </label>
+
+                        <div class="flex items-center justify-between mt-2">
+                            <input type="text" placeholder=" Center Point,Lo.."
+                                class="focus:outline-none text-xs text-[#9498A4] leading-none">
+                            <img class="w-3" src="image/Vector (1).png" alt="location">
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="w-px h-10 hidden bg-gray-200 mx-5 md:block"></div>
+
+                    <!-- Field -->
+                    <div class="flex flex-col w-full flex-1 min-w-0 text-left">
+                        <label class="text-lg font-medium text-brand font-ui leading-none">
+                            Date
+                        </label>
+
+                        <div class="flex items-center justify-between mt-2">
+                            <input type="text" placeholder=" Center Point,Lo.."
+                                class="focus:outline-none text-xs text-[#9498A4] leading-none">
+                            <img class="w-3" src="image/Vector (1).png" alt="location">
+                        </div>
+                    </div>
+
+                    <!-- Search Button -->
+                    <button
+                        class="flex items-center w-full justify-center p-4 bg-accent text-white md:rounded-full rounded-lg sm:w-14  sm:h-14 shrink-0 cursor-pointer">
+                        <img src="image/MagnifyingGlass.png" alt="MagnifyingGlass">
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Right -->
+            <div class="flex-1 flex items-center justify-center max-h-[555px] lg:w-full">
+                <img src="image/model.png" class="max-w-full block mx-auto" alt="travel man">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Categories -->
+    <section>
+        <div class="max-w-container mx-auto px-5">
+
+            <div
+                class="flex flex-col items-center text-center gap-6 mb-10 lg:flex-wrap md:flex-row md:items-start md:justify-between md:text-left md:mb-14">
+
+                <div class="flex flex-col items-center md:items-start">
+
+                    <h2 class="font-display font-bold text-brand text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
+                        Categories
+                    </h2>
+
+                    <p class="max-w-sm text-text font-body text-sm leading-relaxed md:max-w-xs">
+                        Here are lots of interesting destinations to visit,
+                        but don’t be confused—they’re already grouped
+                        by category.
+                    </p>
+
+                </div>
+
+                <div class="hidden md:flex items-center gap-3 shrink-0">
+
+                    <button
+                        class="w-12 h-12 rounded-full border border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition">
+                        <svg class="w-2 h-4" viewBox="0 0 8 14" fill="none">
+                            <path d="M6.75 12.75L0.75 6.75L6.75 0.75" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <button
+                        class="w-12 h-12 rounded-full border border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition">
+                        <svg class="w-2 h-4" viewBox="0 0 8 14" fill="none">
+                            <path d="M0.75 12.75L6.75 6.75L0.75 0.75" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="flex flex-wrap flex-col items-center sm:flex-row justify-center gap-6 md:gap-7 lg:flex-nowrap lg:justify-between">
+
+                <div class="flex flex-col items-center text-center cursor-pointer  min-w-0 max-w-40">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/beach-image.png" alt="Beach"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Beach</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/desert-image.png" alt="Desert"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Desert</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/mountain-image.png" alt="Mountain"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Mountain</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/tample-image.png" alt="Temple"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Temple</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointers min-w-0 max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/tower-image.png" alt="Tower"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Tower</h4>
+                </div>
+
+                <div class="flex flex-col items-center text-center cursor-pointer max-w-40 sm:max-w-[180px]">
+                    <div class="w-32 h-48 sm:w-36 sm:h-56 rounded-full overflow-hidden mb-4">
+                        <img src="image/pyramind-image.png" alt="Pyramid"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                    <h4 class="font-display text-brand text-base sm:text-lg">Pyramid</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
